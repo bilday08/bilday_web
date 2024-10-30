@@ -1,0 +1,53 @@
+/* Common header styling */
+.header-common {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* User Avatar */
+.header-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Username styling */
+.header-username {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Icons container */
+.header-icons {
+    display: flex;
+    gap: 25px;
+}
+
+/* Individual icon style */
+.header-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.header-icon:hover {
+    color: #d9534f; /* Optional: Hover color */
+}
+
+/* Layout container */
+.header-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: #f8f8f8; /* Optional: Adjust color */
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
